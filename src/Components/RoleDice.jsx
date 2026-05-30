@@ -8,7 +8,7 @@ const RoleDice = ({ roleDice, currentDice }) => {
         onClick={roleDice}
       >
         <img
-          src={`/images/dice_${currentDice}.png`}
+          src={`images/dice_${currentDice}.png`}
           alt={`dice ${currentDice}`}
           className="w-[150px]"
         />
